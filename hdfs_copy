@@ -1,0 +1,16 @@
+hadoop fs -put ./sakila-db/actor.tsv.gz /ext/sakila/actor
+hadoop fs -put ./sakila-db/address.tsv.gz /ext/sakila/address
+hadoop fs -put ./sakila-db/category.tsv.gz /ext/sakila/category
+hadoop fs -put ./sakila-db/city.tsv.gz /ext/sakila/city
+hadoop fs -put ./sakila-db/country.tsv.gz /ext/sakila/country
+hadoop fs -put ./sakila-db/customer.tsv.gz /ext/sakila/customer
+hadoop fs -put ./sakila-db/film.tsv.gz /ext/sakila/film
+hadoop fs -put ./sakila-db/film_actor.tsv.gz /ext/sakila/film_actor
+hadoop fs -put ./sakila-db/film_category.tsv.gz /ext/sakila/film_category
+hadoop fs -put ./sakila-db/film_text.tsv.gz /ext/sakila/film_text
+hadoop fs -put ./sakila-db/inventory.tsv.gz /ext/sakila/inventory
+hadoop fs -put ./sakila-db/language.tsv.gz /ext/sakila/language
+hadoop fs -put ./sakila-db/payment.tsv.gz /ext/sakila/payment
+hadoop fs -put ./sakila-db/rental.tsv.gz /ext/sakila/rental
+hadoop fs -put ./sakila-db/staff.tsv.gz /ext/sakila/staff
+hadoop fs -put ./sakila-db/store.tsv.gz /ext/sakila/store
